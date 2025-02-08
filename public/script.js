@@ -2,7 +2,8 @@ const userInput = document.getElementById('text-input');
 const checkPalindromeBtn = document.getElementById('check-btn');
 const resultDiv = document.getElementById('result');
 
-const checkForPalindrome = input => {
+const checkForPalindrome (input ) {
+  input= userInput.value;
   const originalInput = input; // Store for later output
 
   if (input === '') {
