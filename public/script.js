@@ -15,7 +15,7 @@ function checkForPalindrome (input ) {
   resultDiv.replaceChildren();
 
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
-  let resultMsg ="shreeharan is a gay";
+  let resultMsg ="raths loves RK";
 
   const pTag = document.createElement('p');
   pTag.className = 'user-input';
