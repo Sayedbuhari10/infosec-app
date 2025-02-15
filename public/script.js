@@ -15,11 +15,11 @@ function checkForPalindrome (input ) {
   resultDiv.replaceChildren();
 
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
-  let resultMsg ="sanjith inspired by sugumaran nigaa";
+  let resultMsg ='<img src="C:\Users\sayed\Videos\movies\WhatsApp Image 2025-02-12 at 20.17.17_02fe545b.jpg" alt="Description of Image">';
 
   const pTag = document.createElement('p');
   pTag.className = 'user-input';
-  pTag.innerText = resultMsg;
+  pTag.innerHTML= resultMsg;
   resultDiv.appendChild(pTag);
 
   // Show the result.
