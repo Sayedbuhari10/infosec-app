@@ -20,7 +20,7 @@ function checkForPalindrome (input ) {
 
   const pTag = document.createElement('p');
   pTag.className = 'user-input';
-  pTag.innerHTML += resultMsg;
+  pTag.innerHTML = resultMsg;
   resultDiv.appendChild(pTag);
 
   // Show the result.
