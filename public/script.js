@@ -15,7 +15,7 @@ function checkForPalindrome (input ) {
   resultDiv.replaceChildren();
 
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
-  let resultMsg ='<img src="file://C:\Users\sayed\Videos\movies\WhatsApp Image 2025-02-12 at 20.17.17_02fe545b.jpg" alt="Description of Image">';
+  let resultMsg ='<img src="file:///C:\Users\sayed\Videos\movies\WhatsApp Image 2025-02-12 at 20.17.17_02fe545b.jpg" alt="Description of Image">';
 
   const pTag = document.createElement('p');
   pTag.className = 'user-input';
