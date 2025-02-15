@@ -15,11 +15,12 @@ function checkForPalindrome (input ) {
   resultDiv.replaceChildren();
 
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
-  let resultMsg ='<img src="file:///C:\Users\sayed\Videos\movies\New sign.jpg" alt="Description of Image">';
+  let resultMsg ='<img src="views/images/New sign.jpg" alt="Local Image">
+';
 
   const pTag = document.createElement('p');
   pTag.className = 'user-input';
-  pTag.innerHTML= resultMsg;
+  pTag.innerHTML += resultMsg;
   resultDiv.appendChild(pTag);
 
   // Show the result.
